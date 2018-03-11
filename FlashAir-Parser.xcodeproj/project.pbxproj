@@ -69,7 +69,7 @@
 			children = (
 				D00CA2322055A54100A9EBE1 /* AppDelegate.h */,
 				D00CA2332055A54100A9EBE1 /* AppDelegate.m */,
-				D00CA25A2055AF4600A9EBE1 /* FlashAir Parser */,
+				D00CA25A2055AF4600A9EBE1 /* FAParser */,
 				D00CA2352055A54100A9EBE1 /* ViewController.h */,
 				D00CA2362055A54100A9EBE1 /* ViewController.m */,
 				D00CA2382055A54100A9EBE1 /* Main.storyboard */,
@@ -81,7 +81,7 @@
 			path = "FlashAir-Parser";
 			sourceTree = "<group>";
 		};
-		D00CA25A2055AF4600A9EBE1 /* FlashAir Parser */ = {
+		D00CA25A2055AF4600A9EBE1 /* FAParser */ = {
 			isa = PBXGroup;
 			children = (
 				D00CA2542055ABC000A9EBE1 /* FAImage.h */,
@@ -91,7 +91,7 @@
 				D00CA2512055AB5700A9EBE1 /* FAParser.h */,
 				D00CA2522055AB5700A9EBE1 /* FAParser.m */,
 			);
-			path = "FlashAir Parser";
+			path = FAParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
