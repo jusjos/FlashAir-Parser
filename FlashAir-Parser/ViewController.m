@@ -1,28 +1,33 @@
 //
 //  ViewController.m
-//  FlashAir-Parser
+//  FlashairTest
 //
-//  Created by JUSTIN on 11/03/18.
-//  Copyright © 2018 JUSTIN. All rights reserved.
+//  Created by JUSTIN on 20/05/17.
+//  Copyright © 2017 JUSTIN. All rights reserved.
 //
 
+
 #import "ViewController.h"
+#import "FAParser.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+{
+    NSArray<FAImageFolder *> *arrayOfFoldersWithImagesInCamera;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    FAParser *flashAirParser = [[FAParser alloc] init];
+    arrayOfFoldersWithImagesInCamera = [flashAirParser createAnArrayOfFoldersThatHaveImagesFromCamera];
+    
+    /*
+     arrayOfFoldersWithImagesInCamera will contain all images in your flashair wifi device ordered by folder name
+     */
 }
 
 
