@@ -13,6 +13,9 @@
 		D00CA23C2055A54100A9EBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00CA23B2055A54100A9EBE1 /* Assets.xcassets */; };
 		D00CA23F2055A54100A9EBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00CA23D2055A54100A9EBE1 /* LaunchScreen.storyboard */; };
 		D00CA2422055A54100A9EBE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00CA2412055A54100A9EBE1 /* main.m */; };
+		D00CA2532055AB5700A9EBE1 /* FAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D00CA2522055AB5700A9EBE1 /* FAParser.m */; };
+		D00CA2562055ABC000A9EBE1 /* FAImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D00CA2552055ABC000A9EBE1 /* FAImage.m */; };
+		D00CA2592055AC1D00A9EBE1 /* FAImageFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = D00CA2582055AC1D00A9EBE1 /* FAImageFolder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		D00CA23E2055A54100A9EBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D00CA2402055A54100A9EBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D00CA2412055A54100A9EBE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D00CA2512055AB5700A9EBE1 /* FAParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAParser.h; sourceTree = "<group>"; };
+		D00CA2522055AB5700A9EBE1 /* FAParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAParser.m; sourceTree = "<group>"; };
+		D00CA2542055ABC000A9EBE1 /* FAImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAImage.h; sourceTree = "<group>"; };
+		D00CA2552055ABC000A9EBE1 /* FAImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAImage.m; sourceTree = "<group>"; };
+		D00CA2572055AC1D00A9EBE1 /* FAImageFolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAImageFolder.h; sourceTree = "<group>"; };
+		D00CA2582055AC1D00A9EBE1 /* FAImageFolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAImageFolder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,7 @@
 			children = (
 				D00CA2322055A54100A9EBE1 /* AppDelegate.h */,
 				D00CA2332055A54100A9EBE1 /* AppDelegate.m */,
+				D00CA25A2055AF4600A9EBE1 /* FlashAir Parser */,
 				D00CA2352055A54100A9EBE1 /* ViewController.h */,
 				D00CA2362055A54100A9EBE1 /* ViewController.m */,
 				D00CA2382055A54100A9EBE1 /* Main.storyboard */,
@@ -69,6 +79,19 @@
 				D00CA2412055A54100A9EBE1 /* main.m */,
 			);
 			path = "FlashAir-Parser";
+			sourceTree = "<group>";
+		};
+		D00CA25A2055AF4600A9EBE1 /* FlashAir Parser */ = {
+			isa = PBXGroup;
+			children = (
+				D00CA2542055ABC000A9EBE1 /* FAImage.h */,
+				D00CA2552055ABC000A9EBE1 /* FAImage.m */,
+				D00CA2572055AC1D00A9EBE1 /* FAImageFolder.h */,
+				D00CA2582055AC1D00A9EBE1 /* FAImageFolder.m */,
+				D00CA2512055AB5700A9EBE1 /* FAParser.h */,
+				D00CA2522055AB5700A9EBE1 /* FAParser.m */,
+			);
+			path = "FlashAir Parser";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +167,10 @@
 			files = (
 				D00CA2372055A54100A9EBE1 /* ViewController.m in Sources */,
 				D00CA2422055A54100A9EBE1 /* main.m in Sources */,
+				D00CA2592055AC1D00A9EBE1 /* FAImageFolder.m in Sources */,
 				D00CA2342055A54100A9EBE1 /* AppDelegate.m in Sources */,
+				D00CA2562055ABC000A9EBE1 /* FAImage.m in Sources */,
+				D00CA2532055AB5700A9EBE1 /* FAParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
