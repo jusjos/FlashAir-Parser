@@ -14,6 +14,6 @@
 /*
  This method is to be called when connected to a Toshiba Wifi FlashAir device. It will return an array of all image files.
  */
-- (NSArray<FAImageFolder *> *)createAnArrayOfFoldersThatHaveImagesFromCamera;
+- (NSArray<FAImageFolder *> *)createAnArrayOfFoldersThatHaveImagesFromFlashair;
 
 @end

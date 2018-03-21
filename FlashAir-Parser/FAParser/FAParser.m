@@ -10,7 +10,7 @@
 
 @implementation FAParser
 
-- (NSArray<FAImageFolder *> *)createAnArrayOfFoldersThatHaveImagesFromCamera {
+- (NSArray<FAImageFolder *> *)createAnArrayOfFoldersThatHaveImagesFromFlashair {
     
     NSString *baseCommandStringTillDCIM = @"http://flashair/command.cgi?op=100&DIR=/DCIM";
     NSString *basePathStringTillDCIM = @"http://flashair/DCIM";

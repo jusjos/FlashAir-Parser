@@ -16,17 +16,17 @@
 
 @implementation ViewController
 {
-    NSArray<FAImageFolder *> *arrayOfFoldersWithImagesInCamera;
+    NSArray<FAImageFolder *> *arrayOfFoldersWithImagesInFlashair;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     FAParser *flashAirParser = [[FAParser alloc] init];
-    arrayOfFoldersWithImagesInCamera = [flashAirParser createAnArrayOfFoldersThatHaveImagesFromCamera];
+    arrayOfFoldersWithImagesInFlashair = [flashAirParser createAnArrayOfFoldersThatHaveImagesFromFlashair];
     
     /*
-     arrayOfFoldersWithImagesInCamera will contain all images in your flashair wifi device ordered by folder name
+     arrayOfFoldersWithImagesInFlashair will contain all images in your flashair wifi device ordered by folder name
      */
 }
 
